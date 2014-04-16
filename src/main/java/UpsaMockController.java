@@ -116,7 +116,7 @@ public class UpsaMockController {
              "}"+
            "]";
         } else {
-            employee = "{\"message\": Object is not found, \"exception\": \"com.epam.workload.common.ObjectNotFoundException\"}";
+            employee = "{\"message\": \"Object is not found\", \"exception\": \"com.epam.workload.common.ObjectNotFoundException\"}";
         }
         
         return new ResponseEntity<String>(employee, responseHeaders, HttpStatus.CREATED);
