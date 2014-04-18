@@ -23,7 +23,7 @@
      "proposalList": [
        {
          "positionBillingName": "DEV1",
-         "created": "2013-02-05",
+         "created": "02-may-2013",
          "positionId": "2",
          "projectId": "7",
          "isBooked": "true",
@@ -31,7 +31,7 @@
          "projectName": "TJHooker",
          "comments": [
            {
-             "created": "2014-01-28",
+             "created": "28-jan-2014",
              "userId": "77777",
              "action": {
                "id": "1",
@@ -49,19 +49,19 @@
        }
      ],
      "probation": {
-       "actualEndDate": "2013-06-05",
+       "actualEndDate": "05-jul-2013",
        "probationStatus": {
          "id": "1",
          "name": "string"
        },
-       "originalEndDate": "2013-06-05",
-       "endDate": "2013-06-05",
+       "originalEndDate": "05-jul-2013",
+       "endDate": "05-jul-2013",
        "prolongationDate": ""
      },
      "statusId": "1",
      "title": "Software Engineer",
      "bookedCount": {},
-     "hired": "2013-03-05",
+     "hired": "05-mar-2013",
      "primarySkillId": "JAVA",
      "gender": "male",
      "reporterId": "2",
@@ -115,7 +115,7 @@
 	     "proposalList": [
 	       {
 	         "positionBillingName": "DEV4",
-	         "created": "2014-02-05",
+	         "created": "05-feb-2014",
 	         "positionId": "2",
 	         "projectId": "7",
 	         "isBooked": "true",
@@ -123,7 +123,7 @@
 	         "projectName": "TJHooker",
 	         "comments": [
 	           {
-	             "created": "2014-01-28",
+	             "created": "28-jan-2014",
 	             "userId": "77777",
 	             "action": {
 	               "id": "1",
@@ -141,19 +141,19 @@
 	       }
 	     ],
 	     "probation": {
-	       "actualEndDate": "2013-06-05",
+	       "actualEndDate": "05-jul-2013",
 	       "probationStatus": {
 	         "id": "1",
 	         "name": "string"
 	       },
-	       "originalEndDate": "2013-06-05",
-	       "endDate": "2013-06-05",
+	       "originalEndDate": "05-jul-2013",
+	       "endDate": "05-jul-2013",
 	       "prolongationDate": ""
 	     },
 	     "statusId": "1",
 	     "title": "Software Engineer",
 	     "bookedCount": {},
-	     "hired": "2013-05-09",
+	     "hired": "09-may-2013",
 	     "primarySkillId": ".NET",
 	     "gender": "female",
 	     "reporterId": "2",

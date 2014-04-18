@@ -1,6 +1,8 @@
 package com.epam.tjhooker.mock;
 
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -36,6 +38,8 @@ public class UpsaMockController {
         HttpHeaders responseHeaders = new HttpHeaders();
         HttpStatus status = HttpStatus.FOUND;
         ObjectMapper mapper = new ObjectMapper();
+        final DateFormat df = new SimpleDateFormat("dd-MMM-yyyy");
+        mapper.setDateFormat(df);
         JsonFactory jsonFactory = new JsonFactory();
         try {
             JsonParser jsonParser = jsonFactory.createParser(UpsaMockController.class.getClassLoader().getResourceAsStream("employees.json"));
